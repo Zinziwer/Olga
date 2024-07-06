@@ -1,0 +1,21 @@
+.footer {
+	.container {
+		padding: 0 15px;
+
+	}
+
+	&__box {
+		background-color: var(--color-main3);
+	}
+
+	&__text {
+		height: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 40px;
+		color: var(--color-main);
+		font-weight: 900;
+		font-family: "Licorice";
+	}
+}

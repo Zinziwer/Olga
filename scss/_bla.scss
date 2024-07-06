@@ -1,0 +1,111 @@
+.bla {
+	font-family: "Marmelad", sans-serif;
+	text-align: center;
+	margin-bottom: 50px;
+	&__block{
+		text-align: center;
+	}
+	
+	&__title {
+		font-size: 70px;
+		margin-bottom: 40px;
+	}
+
+	&__btn {
+		padding: 5px 15px;
+		margin-bottom: 40px;
+	}
+
+	&__img {
+		margin-left: 10%;
+		max-width: 700px;
+		position: relative;
+	}
+
+	&__pic {
+		width: 100%;		
+	}
+
+	&__card {
+		padding: 35px;
+		position: absolute;
+		left: 660px;
+		top: 190px;
+		width: 500px;
+		height: 300px;
+		background-color: #bff0fc;
+	}
+}
+.card {
+	font-size: 30px;
+	text-align: left;
+	&__text {
+		padding-top: 30px;
+		font-size: 20px;
+		margin-bottom: 30px;
+		line-height: 26px;
+	}
+
+	&__signature {
+		color: #da4c29;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+	
+	&__title {
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width:1440px){
+	.card {
+		left: 560px;
+		top: 220px;
+	}
+	.bla {
+		&__img {
+			margin-left: 6%;
+		}
+	}
+}
+@media screen and (max-width:1201px){
+	.card {
+		left: 420px;
+		top: 350px;
+	}
+	.bla {
+		margin-bottom: 150px;
+		&__img {
+			margin-left: 6%;
+			max-width: 700px;
+			position: relative;
+		}
+	}
+}
+@media screen and (max-width:1024px){
+	.card {
+		width: 400px;
+		min-height: 400px;
+		margin: 0 auto;
+		position: static;
+	}
+	.bla {
+		margin-bottom: 40px;
+		&__img {
+			margin: 0 auto;
+		}
+		&__pic{
+			margin-bottom: 20px;
+		}
+	}
+}
+@media screen and (max-width:450px){
+	.card {
+		max-width: 300px;
+		min-height: 450px;
+	}
+}
+@media screen and (max-width:377px){
+	.card {
+		max-width: 250px;
+		min-height: 550px;
+	}
+}

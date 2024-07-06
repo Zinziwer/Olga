@@ -1,0 +1,112 @@
+.content {
+	padding-top: 20px;
+
+}
+.intro {
+	&__image{
+		display: none;
+	}
+	&__top{
+		padding-bottom: 20px;
+		border-bottom: 2px solid rgb(179, 17, 17);
+		
+	}
+	&__block1 {
+		background: url('../img/tra.jpg') 0 0/auto 100% no-repeat;
+		text-align: right;
+	}
+	&__subtitle {
+		text-transform: uppercase;
+		padding-top: 100px;
+		font-size: 80px;
+	}
+	&__text{
+		padding-top: 100px;
+		font-size: 30px;
+	}
+	&__img{
+		padding-top: 80px;
+		width: 130px;
+		margin-left: 87%;
+	}
+	&__pic{
+		width: 100%;
+	}
+}
+@media screen and (max-width:1200px){
+	.intro__subtitle{
+		font-size: 75px;
+	}
+	.intro__img{
+		padding-top: 60px;
+		width: 130px;
+		margin-left: 85%; 
+	}
+}
+@media screen and (max-width:1050px){
+	.intro__subtitle{
+		font-size: 60px;
+	}
+	.intro__img{
+		padding-top: 60px;
+		width: 130px;
+		margin-left: 85%; 
+	}
+
+}
+@media screen and (max-width:900px){
+	.intro{
+		&__subtitle{
+			font-size: 87px;
+			text-wrap: wrap;		
+		}
+		&__img{
+			display: none; 
+		}
+		&__text{
+			padding-top: 120px;
+		}
+	}
+}
+@media screen and (max-width:768px){
+	.intro{
+		&__text{
+			padding-top: 40px;
+			font-size: 24px;
+		}
+		&__subtitle{
+			font-size: 45px;
+			padding-top: 30px;
+		}
+		&__title{
+			
+		}
+		&__image{
+			display: block;
+		}
+		&__block1 {
+			background: none;
+			text-align: center;
+		}
+	}
+}
+@media screen and (max-width:376px){
+	.intro{
+		&__text{
+			padding-top: 20px;
+			font-size: 18px;
+		}
+		&__subtitle{
+			font-size: 35px;
+			padding-top: 20px;
+		}
+		&__title{
+			padding-top: 20px !important;
+			font-size: 30px !important;
+		}
+		&__block1 {
+			background: none;
+			text-align: left;
+		}
+	}
+}

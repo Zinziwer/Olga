@@ -1,0 +1,48 @@
+.contacts{
+	border-top: 2px solid rgb(179, 17, 17);
+	border-bottom: 2px solid rgb(179, 17, 17);
+	padding-bottom: 20px;
+}
+.contacts {
+
+	&__title {
+		margin-top: 20px;
+		margin-bottom: 40px;
+
+	}
+	a{
+		color: rgb(179, 17, 17);
+	}
+}
+.fa-telegram, .fa-instagram {
+	font-size: 70px;
+	transition-duration: 0.3s;
+}
+.fa-telegram {
+	font-size: 65px;
+}
+.fa-telegram:hover, .fa-instagram:hover {
+	text-shadow: 0px 0px 10px #CE5937;
+	transition-duration: 0.3s;
+}
+.box{
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.text {
+	font-size: 25px;
+	flex: 0 1 30%;
+}
+.text:hover {
+	text-decoration: underline;
+}
+.link {
+	flex: 0 0 5%;
+}
+@media screen and (max-width:769px){
+	.text {
+		font-size: 25px;
+		flex: 0 1 50%;
+	}
+}
