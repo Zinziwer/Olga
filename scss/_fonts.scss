@@ -1,14 +1,26 @@
 @font-face {
-font-family: "Montserrat-Regular";
-src:
-	local("Trickster"),
-	url("../fonts/Montserrat-Regular.ttf") format("truetype");
-}
-@font-face {
-font-family: "Roboto-Regular";
-src:
-	local("Trickster"),
-	url("../fonts/Roboto-Regular.ttf") format("truetype");
+	font-family: "Montserrat-Regular";
+	src:
+		local("Trickster"),
+		url("../fonts/Montserrat-Regular.ttf") format("truetype");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Licorice&family=Roboto:wght@400;700&display=swap')
+@font-face {
+	font-family: "Roboto-Regular";
+	src:
+		local("Trickster"),
+		url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Licorice&family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+	font-family: "SerifiqoRegular";
+	src:
+		url("../fonts/SerifiqoRegular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "NewYork";
+	src:
+		url("../fonts/NewYork.otf") format("opentype");
+}

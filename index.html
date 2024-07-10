@@ -14,7 +14,9 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:wght@400;700&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
@@ -25,25 +27,17 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="container">
-				<h1 class="header__top">OLGA BRAND photo+film</h1>
+				<div class="menu-bar">
+					<h1 class="header__top">OLGA BRAND photo+film</h1>
+					<div class="menu__burger "><span></span></div>
+				</div>
 				<div class="header__body">
 					<h2 class="header__title">Super Puper Photo Video</h2>
 					<a href="" class="header__btn btn">Something about fotography</a>
 				</div>
 			</div>
 		</header>
-		<!-- <header class="header">
-			<div class="container">
-		
-				<nav class="header__menu">
-					<ul>
-						<li class="header__menu-item"><a href="#about">Обо мне</a></li>
-						<li class="header__menu-item"><a href="#services">Услуги</a></li>
-						<li class="header__menu-item"><a href="#contacts">Контакты</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header> -->
+
 		<section class="nice">
 			<div class="nice__container">
 				<div class="nice__fb">
@@ -107,7 +101,45 @@
 		<section class="reviews">
 			<div class="container">
 				<h2 class="reviews__title">My favorite faces</h2>
-				<div class="swiper reviews__container">
+
+				<div class="owl-carousel">
+					<a href="#" class="reviews__image">
+						<div class="reviews__box"><img src="img/2I4A1120800.jpg" alt="" class="reviews__pic"></div>
+						<p class="reviews__text"><span>John Smith</span></p>
+					</a>
+					<a href="#" class="reviews__image">
+						<div class="reviews__box"><img src="img/2I4A4604800.jpg" alt="" class="reviews__pic"></div>
+						<p class="reviews__text"><span>John Smith</span></p>
+					</a>
+					<a href="#" class="reviews__image">
+						<div class="reviews__box"><img src="img/2I4A1120800.jpg" alt="" class="reviews__pic"></div>
+						<p class="reviews__text"><span>John Smith</span></p>
+					</a>
+					<a href="#" class="reviews__image">
+						<div class="reviews__box"><img src="img/2I4A4604800.jpg" alt="" class="reviews__pic"></div>
+						<p class="reviews__text"><span>John Smith</span></p>
+					</a>
+					<a href="#" class="reviews__image">
+						<div class="reviews__box"><img src="img/2I4A1120800.jpg" alt="" class="reviews__pic"></div>
+						<p class="reviews__text"><span>John Smith</span></p>
+					</a>
+					<a href="#" class="reviews__image">
+						<div class="reviews__box"><img src="img/2I4A4604800.jpg" alt="" class="reviews__pic"></div>
+						<p class="reviews__text"><span>John Smith</span></p>
+					</a>
+					<a href="#" class="reviews__image">
+						<div class="reviews__box"><img src="img/2I4A1120800.jpg" alt="" class="reviews__pic"></div>
+						<p class="reviews__text"><span>John Smith</span></p>
+					</a>
+					<a href="#" class="reviews__image">
+						<div class="reviews__box"><img src="img/2I4A4604800.jpg" alt="" class="reviews__pic"></div>
+						<p class="reviews__text"><span>John Smith</span></p>
+					</a>
+					
+				</div>
+			</div>
+
+				<!-- <div class="swiper reviews__container">
 					<div class="reviews__wrapper swiper-wrapper">
 						<div class="reviews__slide swiper-slide">
 							<div class="reviews__image">
@@ -141,7 +173,7 @@
 					<div class="swiper-button-next"></div>
 					<div class="swiper-button-prev"></div>
 					<div class="swiper-pagination"></div>
-				</div>
+				</div> -->
 			</div>
 		</section>
 		<section class="services" id="services">
@@ -260,9 +292,12 @@
 			</div>
 		</footer>
 	</div>
-	<script src="https://kit.fontawesome.com/60205b7cbb.js" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- <script src="https://kit.fontawesome.com/60205b7cbb.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 	<!-- <script src="js/swiper-bundle.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+		<script src="js/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 
